@@ -1,5 +1,7 @@
 // jshint esversion:6
 
+require('dotenv').config()
+
 const express = require("express");
 const request = require("request");
 const bodyParser = require("body-parser");
@@ -51,7 +53,7 @@ app.post("/", function(req, res) {
 
   const option ={
     method: "POST",
-    auth: "MrAch26:8a7e485a700069adff1d3688edf9371c-us4"
+    auth: "MrAch26:"+process.env.API_KEY
   };
 
   const request = https.request(url,option,function(response){
@@ -79,6 +81,3 @@ app.post("/failure", function(req,res){
 app.listen(process.env.PORT || 3000, function() {
   console.log("Serveur 3000");
 });
-
-// list id = cffe9bf03b
-// API key = 8a7e485a700069adff1d3688edf9371c-us4

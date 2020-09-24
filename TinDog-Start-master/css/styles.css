@@ -1,0 +1,176 @@
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat';
+font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* big Heading */
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background: #fff;
+}
+/* Title Section */
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+.iphone6 {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+
+
+/* Nav bar ! */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features ! */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.icon-features {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-features:hover {
+  color: #ff4c68;
+}
+
+.h3-features {
+  font-size: 1.5rem;
+}
+
+.p-features {
+  color: #8f8f8f;
+  width: 70%;
+  margin-left: 50px;
+}
+
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 40px;
+}
+
+
+/* PRESS */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Media Query */
+@media (max-width:1026px) {
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to action - cta */
+
+
+
+/* footer */
+#footer {
+  line-height: 2;
+}
+
+.p-footer {
+  color: grey;
+}
+
+.fa-footer {
+  margin: 20px 20px;
+}

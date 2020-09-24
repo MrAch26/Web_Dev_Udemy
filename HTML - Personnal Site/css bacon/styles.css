@@ -1,0 +1,25 @@
+/*******TAG SELECTION*******/
+h1{
+  color:red;
+  font-size: 126px;
+}
+img:hover{
+  background-color: gold;
+}
+
+/******ID SELECTION****/
+#heading{
+  color: blue;
+}
+
+/******CLASS SELECTION****/
+.bacon{
+  background-color: green;
+}
+.broccoli{
+  background-color: red;
+}
+.circle{
+  border-radius: 100%;
+}
+/*la classe broccoli circle est ensemble mais peut etre changer differement*/

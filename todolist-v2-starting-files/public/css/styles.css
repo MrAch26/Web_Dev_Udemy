@@ -5,6 +5,10 @@ html {
   font-family: 'helvetica neue';
 }
 
+body{
+  margin-top: 11.5%;
+}
+
 h1 {
   color: #fff;
   padding: 10px;
